@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Demo Vue Form Builder - Seth Phat</title>
+    <title>Task Assesment</title>
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 {{--    <link rel="stylesheet" href="{{asset('css/app.css')}}">--}}
 </head>
@@ -27,6 +27,10 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="{{url('/custom-control')}}">Custom Control</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{url('/article')}}">New Form</a>
             </li>
 
             <li class="nav-item">

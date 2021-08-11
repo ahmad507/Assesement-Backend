@@ -16,10 +16,10 @@ Route::get('/', 'PageController@index');
 Route::get('/register', 'PageController@showForm');
 Route::get('/create-document', 'PageController@showForm');
 Route::get('/contact-us', 'PageController@showForm');
+Route::get('/article', 'PageController@showForm');
 Route::get('/custom-control', 'PageController@showForm');
-
 Route::post('/show-post-data', 'PageController@showPostData');
-
-
 Route::get('/form-config', 'PageController@indexFormConfiguration');
 Route::get('/form-config/{id}', 'PageController@detailFormConfiguration');
+
+

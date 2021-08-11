@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Demo Vue Form Builder - Seth Sandaru</title>
+    <title>Demo Vue Form Builder</title>
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 </head>
 <body>

@@ -1,0 +1,272 @@
+{
+    "formConfig": {
+        "headline": "Register at Vue Form Builder",
+        "subHeadline": "Create your new account",
+        "isShowHeadline": true,
+        "renderFormTag": false,
+        "formActionURL": "",
+        "formMethod": "POST"
+    },
+    "sections": {
+        "section-e5a23f7c-1496-4cba-887b-9bd6d3456eda": {
+            "uniqueId": "section-e5a23f7c-1496-4cba-887b-9bd6d3456eda",
+            "headline": "Basic Information",
+            "headlineAdditionalClass": "",
+            "subHeadline": "Let us know about your account detail in order to create new account for you",
+            "subHeadlineAdditionalClass": "",
+            "isShowHeadline": true,
+            "sortOrder": 1,
+            "type": "normal",
+            "rows": [],
+            "controls": [
+                "control-82772910-7378-4acd-a012-31d600c90f96",
+                "control-0af4d52b-b36b-4bef-a2a5-0305704a9ac5",
+                "control-33fdc8c4-6666-418e-8eb9-b3dd008ee68c",
+                "control-47df90c1-3c76-46c9-bf17-4a7b6120878e",
+                "control-96b11ea8-9384-4c73-94cf-d8943e673312",
+                "control-996d1813-6d73-4525-a32b-86ab489a0367"
+            ]
+        },
+        "section-d66d4203-9ab4-4efd-b01e-b9cf7301ab30": {
+            "uniqueId": "section-d66d4203-9ab4-4efd-b01e-b9cf7301ab30",
+            "headline": "Additional Information",
+            "headlineAdditionalClass": "",
+            "subHeadline": "Optional",
+            "subHeadlineAdditionalClass": "",
+            "isShowHeadline": true,
+            "sortOrder": 2,
+            "type": "toggleable",
+            "rows": [],
+            "controls": [
+                "control-cdb01561-0fbd-4351-89db-6b04d16938df"
+            ]
+        },
+        "section-856db982-57e6-439f-8c40-360ff60591fb": {
+            "uniqueId": "section-856db982-57e6-439f-8c40-360ff60591fb",
+            "headline": "New Section",
+            "headlineAdditionalClass": "",
+            "subHeadline": "This is the sub-headline of the new section",
+            "subHeadlineAdditionalClass": "",
+            "isShowHeadline": false,
+            "sortOrder": 3,
+            "type": "normal",
+            "rows": [],
+            "controls": [
+                "control-bc0a73d7-5797-43ea-b883-022909ece5a2",
+                "control-16c5ce26-6001-40d1-8f71-10cd1f7e2c80"
+            ]
+        }
+    },
+    "rows": {},
+    "controls": {
+        "control-82772910-7378-4acd-a012-31d600c90f96": {
+            "uniqueId": "control-82772910-7378-4acd-a012-31d600c90f96",
+            "type": "input",
+            "name": "email",
+            "label": "Email Address",
+            "subLabel": "",
+            "isShowLabel": true,
+            "placeholderText": "",
+            "containerClass": "col-md-12",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [
+                {
+                    "ruleType": "required",
+                    "errorMessage": "You must enter your email address",
+                    "additionalValue": ""
+                },
+                {
+                    "ruleType": "isEmail",
+                    "errorMessage": "Wrong email address format",
+                    "additionalValue": ""
+                },
+                {
+                    "ruleType": "sameAs",
+                    "errorMessage": "Email and Confirm Email must be the same",
+                    "additionalValue": "confirm_email"
+                }
+            ]
+        },
+        "control-0af4d52b-b36b-4bef-a2a5-0305704a9ac5": {
+            "uniqueId": "control-0af4d52b-b36b-4bef-a2a5-0305704a9ac5",
+            "type": "input",
+            "name": "confirm_email",
+            "label": "Confirm Email",
+            "subLabel": "",
+            "isShowLabel": true,
+            "placeholderText": "",
+            "containerClass": "col-md-12",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": []
+        },
+        "control-33fdc8c4-6666-418e-8eb9-b3dd008ee68c": {
+            "uniqueId": "control-33fdc8c4-6666-418e-8eb9-b3dd008ee68c",
+            "type": "input",
+            "name": "first_name",
+            "label": "First Name",
+            "subLabel": "",
+            "isShowLabel": true,
+            "placeholderText": "",
+            "containerClass": "col-md-6",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [
+                {
+                    "ruleType": "required",
+                    "errorMessage": "This field is required",
+                    "additionalValue": ""
+                }
+            ]
+        },
+        "control-47df90c1-3c76-46c9-bf17-4a7b6120878e": {
+            "uniqueId": "control-47df90c1-3c76-46c9-bf17-4a7b6120878e",
+            "type": "input",
+            "name": "last_name",
+            "label": "Last Name",
+            "subLabel": "",
+            "isShowLabel": true,
+            "placeholderText": "",
+            "containerClass": "col-md-6",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [
+                {
+                    "ruleType": "required",
+                    "errorMessage": "This field is required",
+                    "additionalValue": ""
+                }
+            ]
+        },
+        "control-96b11ea8-9384-4c73-94cf-d8943e673312": {
+            "uniqueId": "control-96b11ea8-9384-4c73-94cf-d8943e673312",
+            "type": "date",
+            "name": "DOB",
+            "label": "Date of Birth",
+            "subLabel": "",
+            "isShowLabel": true,
+            "placeholderText": "",
+            "containerClass": "col-md-6",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [],
+            "format": "DD/MM/YYYY",
+            "firstDay": 1,
+            "numberOfMonths": 1,
+            "numberOfColumns": 1,
+            "minDate": null,
+            "maxDate": null,
+            "singleMode": true,
+            "minDays": 0,
+            "maxDays": 0,
+            "returnType": "format"
+        },
+        "control-996d1813-6d73-4525-a32b-86ab489a0367": {
+            "uniqueId": "control-996d1813-6d73-4525-a32b-86ab489a0367",
+            "type": "radio",
+            "name": "sex",
+            "label": "Gender",
+            "subLabel": "",
+            "isShowLabel": true,
+            "placeholderText": "",
+            "containerClass": "col-md-4",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [],
+            "displayMode": "next",
+            "position": "left",
+            "items": [
+                {
+                    "value": "0",
+                    "text": "Male"
+                },
+                {
+                    "value": "1",
+                    "text": "Female"
+                },
+                {
+                    "value": "2",
+                    "text": "Prefer not to tell"
+                }
+            ]
+        },
+        "control-cdb01561-0fbd-4351-89db-6b04d16938df": {
+            "uniqueId": "control-cdb01561-0fbd-4351-89db-6b04d16938df",
+            "type": "text",
+            "name": "reg_reason",
+            "label": "Reason of Registration",
+            "subLabel": "Tell us a little bit why you want to create a new account",
+            "isShowLabel": true,
+            "placeholderText": "",
+            "containerClass": "col-md-12",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [],
+            "rows": 5
+        },
+        "control-bc0a73d7-5797-43ea-b883-022909ece5a2": {
+            "uniqueId": "control-bc0a73d7-5797-43ea-b883-022909ece5a2",
+            "type": "checkbox",
+            "name": "accepted_tos",
+            "label": "Checkbox List",
+            "subLabel": "",
+            "isShowLabel": false,
+            "placeholderText": "",
+            "containerClass": "col-md-12",
+            "additionalContainerClass": "",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [
+                {
+                    "ruleType": "required",
+                    "errorMessage": "This field is required",
+                    "additionalValue": ""
+                }
+            ],
+            "displayMode": "line",
+            "position": "right",
+            "items": [
+                {
+                    "value": "1",
+                    "text": "As checked this field, I confirm that I accepted all of the Term of Services of Vue Form Builder."
+                }
+            ]
+        },
+        "control-16c5ce26-6001-40d1-8f71-10cd1f7e2c80": {
+            "uniqueId": "control-16c5ce26-6001-40d1-8f71-10cd1f7e2c80",
+            "type": "button",
+            "name": "",
+            "label": "Submit",
+            "subLabel": "",
+            "isShowLabel": false,
+            "placeholderText": "",
+            "containerClass": "col-md-12",
+            "additionalContainerClass": "text-right",
+            "additionalFieldClass": "",
+            "additionalLabelClass": "",
+            "defaultValue": "",
+            "validations": [],
+            "buttonClass": "btn btn-primary",
+            "buttonType": "button",
+            "emitEventCode": "",
+            "emitEventData": "",
+            "isRunValidation": true
+        }
+    }
+}
